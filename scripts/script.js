@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             saldoActual -= cantidad
             //saldoElemento.textContent = `Saldo: ${saldoActual}€`
             actualizarSaldo()
+            mensajeElemento.textContent = `Retirado: ${cantidad}€`
         }
     })
 
@@ -33,6 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
             saldoActual += cantidad
            //saldoElemento.textContent = `Saldo: ${saldoActual}€`
             actualizarSaldo()
+            mensajeElemento.textContent = `Depositado: ${cantidad}€`
+
         }
     })
 
